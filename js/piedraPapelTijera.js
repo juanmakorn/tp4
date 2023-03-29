@@ -29,13 +29,13 @@ function play(userOption) {
 
         switch (result) {
             case EMPATE:
-                alert ("Elegi:"+ machineOption +  "El resultado fue:    empatamos =_=");
+                alert ("Elegi:"+ machineOption +  "\n resultado:\n    empatamos =_=");
                 break;
             case GANAS:
-                alert ("Elegi:"+ machineOption +  "El resultado fue:    Ganaste :(");
+                alert ("Elegi:"+ machineOption +  "\n resultado:\n    Ganaste :(");
                 break;
             case PERDISTE:
-                alert ("Elegi:"+ machineOption +  "El resultado fue:     Perdiste :)");
+                alert ("Elegi:"+ machineOption +  "\n resultado:\n     Perdiste :)");
                 break;
         }
          }
