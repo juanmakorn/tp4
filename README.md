@@ -1,19 +1,15 @@
-# practicoJavaScript-TP3
-# TRABAJO PRACTICO DE JAVASCRIP - Arreglos y Funciones
+# practicoJavaScript-TP4
+# TRABAJO PRACTICO DE Prácticas con POO
 ## Juan Manuel Gimenez
 
 ## Consignas:
-## Ejercicios javascript
+## Clases, objetos y métodos
 ## Prácticas con POO : Clases, objetos y métodos
 ### Enunciados:
 
 Incluir este ejercicio como extra en el TP4, Piedra-papel-tijera 👊🏻 ✋🏻 ✌🏻 : crear un script con toda la logica necesaria que solicite al usuario un movimiento (piedra - papel - tijera) la PC elija aleatoriamente un movimiento y al final mostrar por pantalla quien gano, luego preguntar si queremos jugar otra vez.
 
-
-
-Crear objetos
-
-
+Crear objetos:
 
 Dificultad:  🟢
 1- Crea un objeto llamado auto que tenga algunas características como el color, marca, modelo y si está encendido o apagado. Crea los métodos necesarios para permitir encender y apagar el auto.
@@ -100,7 +96,6 @@ Por su parte los aviones tendrán las propiedades: nombre, capacidad, destino, l
 Crear un objeto de tipo aeropuerto llamado "Aeropuerto Internacional", crear 3 objetos aviones a diferentes destinos. Agregar los 3 aviones al aeropuerto, buscar un avión y usar el método abordar.
 
 
-
 ## Teoria utilizada: 
 - [Forma de usar Readme](https://gist.github.com/earias08/082a432a819eae5dbb8f1a9f878f14c1)
 
@@ -109,6 +104,8 @@ Crear un objeto de tipo aeropuerto llamado "Aeropuerto Internacional", crear 3 o
 - [JS parte 2](https://campus.rollingcodeschool.com/mod/url/view.php?id=21692)
 
 - [JS parte 1](https://campus.rollingcodeschool.com/mod/url/view.php?id=21691)
+
+- [POO](https://campus.rollingcodeschool.com/mod/forum/view.php?id=21700)
 
 Tengo en cuenta que al ingresar al link tiene que tener su usuario y constraseña del campus.
 
