@@ -14,40 +14,7 @@ class Aeropuerto {
       this.#nombreAeropuerto = nombreAeropuerto;
       this.#listaAviones = listaAviones;
     }
-    get _Aeropuerto() {
-      return this.#nombreAeropuerto;
-    }
-    set _Aeropuerto(nuevoNombreAeropuerto) {
-      this.#nombreAeropuerto = nuevoNombreAeropuerto;
-    }
-    get _listaAviones() {
-      return this.#listaAviones;
-    }
-    set _listaAviones(nuevaListaAviones) {
-      this.#listaAviones = nuevaListaAviones;
-    }
-    agregarAvion(avion) {
-      this.#listaAviones.push(avion);
-    }
-    buscarAvion(nombreAvion) {
-      const objeto = this.#listaAviones.find((elemento) => {
-        if (elemento.nombre === nombreAvion) {
-          return true;
-        }
-        return false;
-      });
-
-      if (objeto) {
-        document.write(`Informacion<br> Nombre : ${objeto.nombre}<br>`);
-        document.write(`Capacidad : ${objeto.capacida}<br>`);
-        document.write(`Destino: ${objeto.destino}<br>`);
-        document.write(`Lista de pasajeros: ${objeto.listaPasajeros}<br>`);
-      } else {
-        document.write(`No se encotro el nombre del avion<br>`);
-      }
-    }
-  }
-  class Avion {
+    class Avion {
     #nombre;
     #capacidad;
     #destino;
@@ -75,26 +42,5 @@ class Aeropuerto {
     }
     set _destino(nuevoDestino) {
       this.#destino = nuevoDestino;
-    }
-    get _listaPasajeros() {
-      return this.#listaPasajeros;
-    }
-    set _listaPasajeros(nuevaListaPasajeros) {
-      this.#listaPasajeros = nuevaListaPasajeros;
-    }
-    abordar(pasajero = "pasajero") {
-      if (this.#capacidad === 0) {
-        document.write(`Capacidad llena`);
-      } else {
-        this.#capacidad --;
-        this.#listaPasajeros.push(pasajero);
-      }
-    }
-  }
-  let aeropueto1 = new Aeropuerto("Aeropuerto Internacional NEWVERY", new Array());
-  let avion1 = new Avion(`HVM`, 218, "Francia", new Array());
-  let avion2 = new Avion("PAM AM", 132, "Qatar", new Array());
-  let avion3 = new Avion("AUSTRAL", 324, "Argentina", new Array());
-  aeropueto1.agregarAvion(avion1);
-  aeropueto1.agregarAvion(avion2);
-  aeropueto1.agregarAvion(avion3);
+    }   }
+   
