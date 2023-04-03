@@ -17,42 +17,42 @@ const mayorCantiadPaginas = (numerosPaginas1,numeroPaginas2,nombre1,nombre2) => 
       this.autor = autor;
       this.numeroPaginas = numeroPaginas;
     }
-  
-    set actualizarIsbn(nuevoIsbn) {
-      this.isbn = nuevoIsbn;
+
+    get _isbn(){
+        return this.isbn;
     }
-    get obtenerIsbn() {
-      return this.isbn;
+
+    set _isbn(nuevoIsbn){
+        this.isbn = nuevoIsbn;
     }
-  
-    set actualizarAutor(nuevoAutor) {
-      this.autor = nuevoAutor;
+    get _titulo(){
+        return this.titulo;
     }
-    get obtenerAutor() {
-      return this.autor;
+
+    set _titulo(nuevoTitulo){
+        this.titulo = nuevoTitulo;
     }
-  
-    set actualizarTitulo(nuevoTitulo) {
-      this.titulo = nuevoTitulo;
+    get _autor(){
+        return this.autor;
     }
-    get obtenerTitulo() {
-      return this.titulo;
+
+    set _autor(nuevoAutor){
+        this.autor = nuevoAutor;
     }
-  
-    set actualizarNumeroPaginas(nuevoNumeroPaginas) {
-      this.numeroPaginas = nuevoNumeroPaginas;
+    get _numeroPaginas (){
+        return this.numeroPaginas;
     }
-    get obtenerNumeroPaginas() {
-      return this.numeroPaginas;
+    set _numeroPaginas(nuevoNumeroPaginas){
+    this.numeroPaginas = nuevoNumeroPaginas;
     }
-  
-    mostrarLibro(){
+
+     mostrarLibro(){
       document.write(`El libro '${this.titulo}' con ISBN ${this.isbn} creador por el autor ${this.autor}, tiene ${this.numeroPaginas} paginas <br>`);
     }
-  }
+   }
   
-  let libro1 = new Libro(9788409273683,'Play historia','Marc Rollan',1008);
-  let libro2 = new Libro(9781302900823,'The Amazing Spider-Man','Stan Lee',1088);
+  let libro1 = new Libro(112233445566,'Play Mania','RED',250);
+  let libro2 = new Libro(778899001122,'Tokio Revenses','KEN WAKUI',400);
   libro1.mostrarLibro();
   libro2.mostrarLibro();
   mayorCantiadPaginas(libro1.numeroPaginas,libro2.numeroPaginas,libro1.titulo,libro2.titulo);
