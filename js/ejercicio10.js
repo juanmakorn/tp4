@@ -25,22 +25,5 @@ class Aeropuerto {
       this.#destino = destino;
       this.#listaPasajeros = listaPasajeros;
     }
-    get _nombre() {
-      return this.#nombre;
-    }
-    set _nombre(nuevoNombre) {
-      this.#nombre = nuevoNombre;
-    }
-    get _capacida() {
-      return this.#capacidad;
-    }
-    set _capacida(nuevaCapacidad) {
-      this.#capacidad = nuevaCapacidad;
-    }
-    get _destino() {
-      return this.#destino;
-    }
-    set _destino(nuevoDestino) {
-      this.#destino = nuevoDestino;
-    }   }
+       }
    
